@@ -2,9 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>MainForm.ui.qml</file>
-        <file>../Desktop/Patrick.jpg</file>
-        <file>../MatahariMuter/matahari.png</file>
-        <file>../MatahariMuter/AwanPutih.png</file>
-        <file>../MatahariMuter/rocket.png</file>
+        <file>Patrick.jpg</file>
     </qresource>
 </RCC>

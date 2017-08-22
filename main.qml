@@ -6,20 +6,23 @@ Window
     visible : true
     width   : 640
     height  : 480
-    title   : qsTr("Patrick jago coding :v ;) :P")
+    title   : qsTr("Patrick lagi coding")
 
     MainForm
     {
         anchors.fill: parent
         mouseArea.onClicked:
         {
-         console.log(qsTr('""Patrick diudel-udel "' + textEdit.text + '" dedemit"'))
+         console.log(qsTr('""Patrick diudel-udel "' + textEdit.text + '""'))
         }
     }
 
     Image
     {
-        source : "Desktop/Patrick.jpg"
+        source : "Patrick.jpg"
+        width  : 100
+        height : 100
+
 
         NumberAnimation on x
         {
@@ -48,7 +51,7 @@ Window
     Image
     {
      id     : contohImage //id untuk dipanggil lagi
-     source : "MatahariMuter/matahari.png"
+     source : "matahari.png"
      width  : 300
      height : 300
      anchors.alignWhenCentered : parent
@@ -66,7 +69,7 @@ Window
      height           : 100
      fillMode         : Image.Stretch
    //anchors.centerIn : parent   //jadi ga gerak
-     source           : "MatahariMuter/AwanPutih.png"
+     source           : "AwanPutih.png"
 
      NumberAnimation on x
      {
@@ -86,7 +89,7 @@ Window
 
     Image
     {
-     source    : "/MatahariMuter/rocket.png"
+     source    : "rocket.png"
      width     : 110
      height    : 110
      transform : Rotation
