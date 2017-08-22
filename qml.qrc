@@ -3,5 +3,8 @@
         <file>main.qml</file>
         <file>MainForm.ui.qml</file>
         <file>Patrick.jpg</file>
+        <file>matahari.jpg</file>
+        <file>rocket.jpg</file>
+        <file>awan.jpg</file>
     </qresource>
 </RCC>

@@ -8,33 +8,23 @@ Window
     height  : 480
     title   : qsTr("Patrick lagi coding")
 
-    MainForm
-    {
-        anchors.fill: parent
-        mouseArea.onClicked:
-        {
-         console.log(qsTr('""Patrick diudel-udel "' + textEdit.text + '""'))
-        }
-    }
-
     Image
     {
         source : "Patrick.jpg"
         width  : 100
         height : 100
 
-
         NumberAnimation on x
         {
             from     :    5
-            to       :  400
+            to       :  500
             duration : 5000
         }
 
         NumberAnimation on y
         {
             from     :    0
-            to       :  225
+            to       :  375
             duration : 1000
         }
 
@@ -51,9 +41,9 @@ Window
     Image
     {
      id     : contohImage //id untuk dipanggil lagi
-     source : "matahari.png"
-     width  : 300
-     height : 300
+     source : "matahari.jpg"
+     width  : 200
+     height : 200
      anchors.alignWhenCentered : parent
      RotationAnimation on rotation
      {
@@ -69,7 +59,7 @@ Window
      height           : 100
      fillMode         : Image.Stretch
    //anchors.centerIn : parent   //jadi ga gerak
-     source           : "AwanPutih.png"
+     source           : "awan.jpg"
 
      NumberAnimation on x
      {
@@ -84,12 +74,11 @@ Window
          to       :  100
          duration : 1000
      }
-
     }
 
     Image
     {
-     source    : "rocket.png"
+     source    : "rocket.jpg"
      width     : 110
      height    : 110
      transform : Rotation
