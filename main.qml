@@ -3,40 +3,47 @@ import QtQuick.Window 2.2
 
 Window
 {
-    visible : true
-    width   : 640
-    height  : 480
-    title   : qsTr("Patrick lagi coding")
+ visible : true
+ width   : 640
+ height  : 480
+ title   : qsTr("Patrick lagi coding")
 
-    Image
-    {
-        source : "Patrick.jpg"
-        width  : 100
-        height : 100
+ Image
+ {
+  height :480
+  id     : name
+  source : "Hasna Background.png"
+ }
 
-        NumberAnimation on x
-        {
-            from     :    5
-            to       :  500
-            duration : 5000
-        }
+ Image
+ {
+  source : "Patrick.jpg"
+  width  : 100
+  height : 100
 
-        NumberAnimation on y
-        {
-            from     :    0
-            to       :  375
-            duration : 1000
-        }
+  NumberAnimation on x
+  {
+   from     :    5
+   to       :  500
+   duration : 5000
+  }
 
-        transform :
-            Rotation
-            { //object kotak diputer object anak rotation
-              origin.x :  5
-              origin.y :  5
-              angle    : -5
-            }
+  NumberAnimation on y
+  {
+   from     :    0
+   to       :  375
+   duration : 1000
+  }
 
+   transform :
+    Rotation
+    { //object kotak diputer object anak rotation
+     origin.x :  5
+     origin.y :  5
+     angle    : -5
     }
+
+ }
 
     Image
     {
