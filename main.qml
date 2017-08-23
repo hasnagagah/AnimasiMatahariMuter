@@ -10,7 +10,7 @@ Window
 
  Image
  {
-  height :480
+  height : Screen.height //480
   id     : name
   source : "Hasna Background.png"
  }
